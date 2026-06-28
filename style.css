@@ -1,1 +1,60 @@
+* {
+  box-sizing: border-box;
+}
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #08080d;
+  color: white;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  width: 100%;
+  max-width: 650px;
+}
+
+h1 {
+  text-align: center;
+  color: orangered;
+  font-size: 48px;
+}
+
+p {
+  font-size: 18px;
+}
+
+#chat {
+  min-height: 420px;
+  border: 2px solid #222;
+  border-radius: 22px;
+  padding: 20px;
+  margin-bottom: 20px;
+  overflow-y: auto;
+  background: #0d0d12;
+}
+
+.input-area {
+  display: flex;
+  gap: 10px;
+}
+
+#prompt {
+  flex: 1;
+  padding: 14px;
+  font-size: 17px;
+  border-radius: 10px;
+}
+
+#send {
+  padding: 14px 22px;
+  font-size: 17px;
+  border-radius: 10px;
+  border: none;
+  background: orangered;
+  color: white;
+}
